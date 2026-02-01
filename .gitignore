@@ -1,0 +1,48 @@
+# Arquivos de ambiente e configuração
+.env
+!.env.example
+
+# Ambiente virtual Python
+venv/
+.venv/
+env/
+.env/
+
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Diretórios de build e distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Diretórios de saída (mantém a estrutura, ignora conteúdo)
+output/*.json
+output/*.log
+output/partial/*.json
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Mypy
+.mypy_cache/
